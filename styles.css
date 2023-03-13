@@ -1,8 +1,53 @@
+@charset "utf-8";
+
+.margen1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+.margen2{
+    margin-left: 100px;
+    margin-top: 11px;  
+}
+
+.conte-creatucuenta{
+    position: absolute;
+    width: 295px;
+    font-family: Roboto, sans-serif;
+    height: 52px;
+    left: 856px;
+    top: 60px;
+}
+
+.organization{
+    position: absolute;
+    display: flex;
+    width: 5100px;
+    height: 340px;
+    gap: 25px;
+    left: 180px;
+    top: 60px;
+    
+}
+
+.organization1{
+    flex-direction: column;
+    
+}
+.margen3{
+    margin-left: 148;
+    margin-right: 164;
+}
 .nav-header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
     background-color: #fff159;
     border: 0;
     position: relative
 }
+
 .nav-header-plus .nav-bounds {
     display: grid;
     grid-template-areas: "nav-left-top nav-center-top nav-right-top" "nav-left-bottom nav-center-bottom nav-right-bottom";
@@ -18,56 +63,26 @@
 .nav-header-plus .nav-area {
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: row;
     flex-direction: row;
 }
 
-.nav-header-plus .nav-top-area {
-    height: 40px;
-    -webkit-align-items: center;
-    align-items: center
+.cont-div-header1{
+    position: absolute;
+    width: 1200px;
+    height: 92px;
+    left: calc(50% - 1200px/2);
+    top: 0px;
 }
 
-.nav-header-plus .nav-bottom-area {
-    height: 28px;
-    -webkit-align-items: flex-end;
-    align-items: flex-end
+.pseudo-header{
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
-.nav-header-plus .nav-left-area {
-    justify-content: flex-start
-}
-
-.nav-header-plus .nav-right-area {
-    justify-content: flex-end
-}
-
-.nav-header-plus .nav-left-area.nav-top-area {
-    grid-area: nav-left-top;
-}
-
-.nav-header-plus .nav-center-area .nav-bottom-area {
-    grid-area: nav-center-bottom;
-    padding: 4px;
-    margin: -4px;
-    height: 36px
-}
-
-.nav-header-plus .nav-center-area.nav-top-area {
-    grid-area: nav-center-top
-}
-
-.nav-header-plus-logo.nav-area.nav-top-area.nav-left-area {
-}
-
-.nav-header-plus .nav-left-area.nav-top-area {
-    grid-area: nav-left-top;
-}
-
-.nav-header-plus .nav-left-area.nav-top-area:hover {
-    z-index: 999
-}
-
 .nav-logo {
     background-repeat: no-repeat;
     overflow: hidden;
@@ -75,26 +90,35 @@
     background-image: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.22.5/mercadolibre/logo__large_plus.png");
     height: 34px;
     width: 134px;
-    display: -webkit-flex;
     display: flex;
     position: static;
     left: 0;
     top: 0
 }
+.logo-mercadolibre{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.nav-header-div12{
+    margin-left: 200px;
+    margin-top: 8px;
+    height: 50px;
+    width: 598px;
+}
 
 input[type=text].nav-search-input,input[type=search].nav-search-input {
     position: relative;
-    z-index: 915;
+    z-index: 920;
     color: #333;
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
-    font-family: inherit;
+    font-family: Roboto, sans-serif;
     border-radius: 2px;
     background-color: #fff;
-    display: -webkit-flex;
-    display: flex;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
-    height: 40px;
+    height: 15px;
     width: 100%;
     padding: 10px 60px 10px 15px;
     border-style: solid;
@@ -108,31 +132,42 @@ input[type=text].nav-search-input::-webkit-input-placeholder, input[type=search]
     font-weight: 400
 }
 
+button.nav-search-btn,button.nav-search-btn:focus {
+    position: absolute;
+    z-index: 920;
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #666;
+    line-height: 1em;
+    border-radius: 0 2px 2px 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: none;
+    background-color: rgba(0,0,0,0);   
+}
+
 button.nav-search-btn:before,button.nav-search-btn:focus:before {
     content: "";
     display: block;
-    height: 26px;
-    border-left: 1px solid #e6e6e6;
-    position: absolute;
-    top: 6.5px
+    height: 36px;
+    border-left: 2px solid #e6e6e6;
 }
 
-.nav-search-btn .nav-icon-search:before {
-    content: "";
-    vertical-align: top
-}
-.nav-icon-close:before,.nav-icon-search:before {
-    display: inline-block
-}
-
-.nav-header {
-    height: 100px;
-    display: -webkit-flex;
+.nav-search {
+    will-change: left;
+    transition: left .15s ease-out;
+    max-width: 720px;
+    left: -1px;
     display: flex;
+    width: 100%;
+    height: 36px;
     justify-content: center;
-    background-color: #fff159;
-    border: 0;
-    position: relative
+    align-items: center;
+    position: relative;
+    overflow: visible;  
 }
 
 .nav-header-visually-hidden {
@@ -146,82 +181,3 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     padding: 0;
     display: block
 }
-
-.margen1{
-    /*margin-left: 150px;*/
-    margin-top: 10px;  
-}
-
-.margen2{
-    margin-left: 100px;
-    margin-top: 11px;  
-}
-
-.organization{
-    display: flex;
-    gap: 18px;
-}
-
-.organization1{
-    flex-direction: column;
-    
-}
-.margen3{
-    margin-left: 148;
-    margin-right: 164;
-}
-
-.nav-bounds.nav-bounds-with-cart .nav-cart {
-    overflow: hidden
-}
-
-.nav-bounds.nav-bounds-with-cart .nav-cart .nav-icon-cart-quantity>b {
-    font-weight: inherit
-}
-
-.nav-bounds {
-    display: block;
-    padding: 0 10px;
-    margin: 0 auto
-}
-
-.nav-bounds {
-    max-width: 1220px
-}
-
-.nav-bounds .nav-cart {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-decoration: none;
-    width: 22px;
-    height: 20px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: visible
-}
-
-.nav-header .nav-bounds {
-    display: flex;
-    position: relative;
-    padding: 8px 10px;
-    height: 100%;
-    width: 100%;
-    max-width: 1200px
-}
-.nav-header,.nav-header *,.nav-header *:before,.nav-header *:after {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-
-
-
-
-
-
-
-
-
