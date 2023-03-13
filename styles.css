@@ -181,3 +181,30 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     padding: 0;
     display: block
 }
+
+.div-novedades-pp{
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 0px;
+
+}
+
+.a-img-novedades{
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: calc(50% - 1512px/2);
+    top: 105px;
+    background: url(.png);
+}
+
+.ulnovedades{
+    position:absolute;
+    width: 60px;
+    height: 6px;
+    margin-top: 418px;
+    margin-left: 726px;
+}
