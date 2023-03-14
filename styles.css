@@ -290,7 +290,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 20px;
     left: 84px;
     top: 24px;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -307,7 +307,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 15px;
     left: 84px;
     top: 47px;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -323,7 +323,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 20px;
     left: 380px;
     top: 24px;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -340,7 +340,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 15px;
     left: 380px;
     top: 47px;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -356,7 +356,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 20px;
     left: 680px;
     top: 24px;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -373,7 +373,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 15px;
     left: 680px;
     top: 47px;
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -389,7 +389,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 20px;
     left: 85px;
     top: 24px;
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1613,7 +1613,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     position: absolute;
     width: 74.09px;
     height: 20px;
-    left: 12px;
+    left: 6px;
     top: 7.5px;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -1634,7 +1634,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     top: 7.5px;
     font-family: Roboto, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     line-height: 1px;
     display: flex;
@@ -1649,4 +1649,588 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 95px;
     left: 0px;
     top: 0px;
+}
+
+.seccion-tiendas{
+    position: absolute;
+    width: 454.64px;
+    height: 31.19px;
+    left: 0px;
+    top: 40px;
+}
+.contetendor-tiendas{    
+    position: absolute;
+    width: 1200px;
+    height: 505.19px;
+    left: calc(50% - 1200px/2);
+    top: 0px;
+}
+
+.contetendor-tiendas2{    
+    position: absolute;
+    width: 1200px;
+    height: 356px;
+    left: 0px;
+    top: 93.19px;
+}
+
+.seccion-mejores-tiendas{
+    position: absolute;
+    width: 1350px;
+    height: 505.19px;
+    left: 0px;
+    top: 2112.5px;    
+    background: linear-gradient(0deg, #E6E6E6 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.mejores-tiendas{
+    position: absolute;
+    width: 342px;
+    height: 32px;
+    left: 8px;
+    top: 0px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.ver-tiendas{
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    left: 375.45px;
+    top: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+
+.contenedor-tienda{
+    position: absolute;
+    width: 284px;
+    height: 340px;
+    left: 8px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.contenedor-tiendami{
+    position: absolute;
+    width: 284px;
+    height: 340px;
+    left: 308px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.contenedor-tiendaoster{
+    position: absolute;
+    width: 284px;
+    height: 340px;
+    left: 608px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.contenedor-tiendanikon{
+    position: absolute;
+    width: 284px;
+    height: 340px;
+    left: 908px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.text-tienda{
+    position: absolute;
+    width: 284px;
+    height: 35px;
+    left: 0px;
+    top: 151px;
+}
+
+.style-text-tienda{
+    position: absolute;
+    width: 53.29px;
+    height: 35px;
+    left: 115.45px;
+    top: 0px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+
+}
+
+.articulos-tienda{
+    position: absolute;
+    width: 284px;
+    height: 74px;
+    left: 0px;
+    top: 202px;
+}
+
+.articulo-izq{
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 70px/2 - 76px);
+    top: 3px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+}
+
+.articulo-centro{
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 70px/2);
+    top: 3px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+}
+
+.articulo-der{
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 70px/2 + 76px);
+    top: 3px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+}
+
+.vertienda{
+    position: absolute;
+    width: 68.84px;
+    height: 22px;
+    left: 107.67px;
+    top: 298px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
+.colecciones{   
+    position: absolute;
+    width: 1200px;
+    height: 382px;
+    left: 100px;
+    top: 2704px;
+}
+
+.pedigre{
+    position: absolute;
+    width: 383px;
+    height: 281px;
+    left: -10px;
+    top: 0px;
+    background: url(.png), #FFFFFF;
+}
+
+.tex-super{
+    width: 221px;
+    height: 33px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container-super{
+    position: absolute;
+    width: 383px;
+    height: 99px;
+    left: -10px;
+    top: 285px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.conta-super-inter{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 137px 4px 0px;
+    position: absolute;
+    width: 358px;
+    height: 41px;
+    left: 25px;
+    top: 10px;
+}
+
+.colecciones-inter{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 400px;
+    top: 6px;
+}
+
+.colecciones-supermercado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 1px 0px 2.1875px;
+    gap: 6.88px;
+    position: absolute;
+    width: 344.67px;
+    height: 31.19px;
+    left: 0px;
+    top: -80px;
+}
+
+.span-colecciones{
+    width: 115px;
+    height: 26px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.span-supermercado{
+    width: 140px;
+    height: 26px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-supermercado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 2px 0px 0px;
+    gap: 7.8px;
+    width: 150px;
+    height: 28px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.tex-descubre{
+    position: absolute;
+    width: 93.82px;
+    height: 18px;
+    left: 25px;
+    top: 20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.conta-super-inter{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 137px 4px 0px;
+    position: absolute;
+    width: 358px;
+    height: 41px;
+    left: 25px;
+    top: 10px;
+}
+
+.catego-populares{
+    position: absolute;
+    width: 1200px;
+    height: 473.19px;
+    left: 100px;
+    top: 3231.69px;    
+}
+
+.categorias-pp{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1190px;
+    height: 340px;
+    left: 10px;
+    top: 93.19px;
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.formas-de-pago{
+    position: absolute;
+    width: 1184px;
+    height: 90px;
+    left: calc(50% - 1184px/2);
+    top: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.mediospagos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 913.97px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+}
+
+.masmediospagos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 270.03px;
+    height: 130px;
+    left: 913.97px;
+    top: 0px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.cuotas{
+    width: 304.66px;
+    height: 130px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.transferencias{
+    width: 304.66px;
+    height: 130px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.pagaefectivo{
+    width: 304.66px;
+    height: 130px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+
+.text-num-cuotas{
+    position: absolute;
+    width: 125px;
+    height: 20px;
+    left: 84px;
+    top: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text-vermas-cuotas{
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 84px;
+    top: 47px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+
+.text-transferencia{
+    position: absolute;
+    width: 224px;
+    height: 20px;
+    left: 380px;
+    top: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text-vermas-transfer{
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 380px;
+    top: 47px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+
+.text-pagaefectivo{
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    left: 680px;
+    top: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text-vermas-pagaefectivo{
+    position: absolute;
+    width: 48px;
+    height: 15px;
+    left: 680px;
+    top: 47px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+
+.text-masmedios{
+    position: absolute;
+    width: 159px;
+    height: 20px;
+    left: 85px;
+    top: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text-vertodos{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    left: 85px;
+    top: 47px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+
+.novedades-principales{
+    position: absolute;
+    height: 340px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.aimagennovedades{
+    position: absolute;
+    width: 1512px;
+    height: 340px;
+    left: 0px;
+    top: 100px;
+}
+
+.ulnovedades{
+    position: absolute;
+    left: 726px;
+    right: 726px;
+    top: 400px;
+    bottom: 16px;
+}
+
+.margen3{
+    margin-left: 148;
+    margin-right: 164;
 }
