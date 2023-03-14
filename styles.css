@@ -2003,7 +2003,22 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     width: 1200px;
     height: 473.19px;
     left: 100px;
-    top: 3231.69px;    
+    top: 3150px;    
+}
+
+.categorias-text{   
+    width: 241.36px;
+    height: 37px;
+    left: 8px;
+    top: 37px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #666666;
 }
 
 .categorias-pp{
@@ -2015,11 +2030,683 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     width: 1190px;
     height: 340px;
     left: 10px;
-    top: 93.19px;
+    top: 65px;
     background: rgba(255, 255, 255, 0.002);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
+
+.contenedor-categorias{
+    width: 0px;
+    height: 340px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.organization{
+    position: absolute;
+    display: flex;
+    width: 5100px;
+    height: 340px;
+    gap: 25px;
+    left: -20px;
+    top: 0px;
+}
+
+.organization1{
+    position: absolute;
+    width: 170px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;   
+}
+
+.img-organi1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: 2px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+.style-text-carromoto{
+    position: absolute;
+    width: 143.18px;
+    height: 21px;
+    left: 20px;
+    top: 80px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.style-ico-carromoto{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.img-organi2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: 2px;
+    right: 0px;
+    bottom: 50px;
+    top: 145px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-celutele{
+    position: absolute;
+    width: 140.9px;
+    height: 21px;
+    left: 15.14px;
+    top: 90px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.style-ico-celutele{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.img-compu{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -22px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-computacion{
+    position: absolute;
+    width: 87.89px;
+    height: 21px;
+    left: 40.66px;
+    top: 80px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.style-ico-compu{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.img-belleza{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -22px;
+    right: 0px;
+    bottom: 50px;
+    top: 145px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-belleza{
+    position: absolute;
+    width: 118.87px;
+    height: 42px;
+    left: 20.16px;
+    top: 90px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.style-ico-belleza{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.img-ropa{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -42px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-ropa{
+    position: absolute;
+    width: 121.67px;
+    height: 21px;
+    left: 23.77px;
+    top: 80px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-ropa{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 25px;
+}
+
+.img-deporte{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -42px;
+    right: 0px;
+    bottom: 50px;
+    top: 144px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-deporte{
+    position: absolute;
+    width: 122.9px;
+    height: 21px;
+    left: 23.14px;
+    top: 90px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-deporte{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+
+}
+
+.organization4{
+    position: absolute;
+    width: 170px;
+    left: 560px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.img-sofa{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -62px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-hogar{
+    position: absolute;
+    width: 112.29px;
+    height: 21px;
+    left: 28.45px;
+    top: 80px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-hogar{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.img-electonica{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -62px;
+    right: 0px;
+    bottom: 50px;
+    top: 144px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-electronica{
+    position: absolute;
+    width: 129.98px;
+    height: 42px;
+    left: 9.61px;
+    top: 90px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-electronica{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.organization5{
+    position: absolute;
+    width: 170px;
+    left: 745px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.img-accesorios{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -82px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-accesorio{
+    position: absolute;
+    width: 106.04px;
+    height: 42px;
+    left: 21.58px;
+    top: 80px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-accesorio{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.img-consola{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -82px;
+    right: 0px;
+    bottom: 50px;
+    top: 144px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-consola{
+    position: absolute;
+    width: 83.36px;
+    height: 32px;
+    left: 32.92px;
+    top: 90px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-consola{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.organization6{
+    position: absolute;
+    width: 170px;
+    left: 930px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.img-electrodomesticos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -102px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-electrodomesticos{
+    position: absolute;
+    width: 121.43px;
+    height: 21px;
+    left: 23.88px;
+    top: 90px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-electrodomesticos{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+
+}
+
+.img-juegos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -102px;
+    right: 0px;
+    bottom: 50px;
+    top: 144px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-juegos{
+    position: absolute;
+    width: 123.84px;
+    height: 21px;
+    left: 22.67px;
+    top: 90px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-juegos{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+
+}
+
+.organization7{
+    position: absolute;
+    width: 170px;
+    left: 1115px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.img-camaras{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -122px;
+    right: 0px;
+    bottom: 200px;
+    top: -20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-camaras{
+    position: absolute;
+    width: 72.81px;
+    height: 42px;
+    left: 48.19px;
+    top: 110px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-camaras{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 50px;
+}
+
+.img-herramientas{
+    box-sizing: border-box;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: -122px;
+    right: 0px;
+    bottom: 50px;
+    top: 144px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+}
+
+.style-text-herramientas{
+    position: absolute;
+    width: 88.64px;
+    height: 21px;
+    left: 40.28px;
+    top: 90px;
+
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+
+}
+
+.style-ico-herramientas{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 1.5px);
+    top: 30px;
+}
+
+.organization2{
+    position: absolute;
+    width: 170px;
+    left: 190px;
+    top: 0px;
+    bottom: 0px;    
+}
+
+.organization3{
+    position: absolute;
+    width: 170px;
+    left: 375px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
 
 .formas-de-pago{
     position: absolute;
