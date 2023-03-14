@@ -42,6 +42,7 @@
     margin-right: 164;
 }
 .nav-header {
+    width: 1341px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -135,6 +136,16 @@ input[type=text].nav-search-input::-webkit-input-placeholder, input[type=search]
     font-weight: 400
 }
 
+.div-main{
+    position: absolute;
+    height: 3586px;
+    left: 0px;
+    right: 0px;
+    top: 100.5px;
+
+    background: #EBEBEB;
+}
+
 button.nav-search-btn,button.nav-search-btn:focus {
     position: absolute;
     z-index: 920;
@@ -189,9 +200,9 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     position: absolute;
     width: 1512px;
     height: 100px;
-    margin-left: 0px;
+    margin-left: -163px;
     margin-right: 0px;
-    top: 0px;
+    top: -105px;
 
 }
 
@@ -199,9 +210,8 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     position: absolute;
     width: 1512px;
     height: 100px;
-    left: calc(50% - 1512px/2);
+    left: -200;
     top: 105px;
-    background: url(.png);
 }
 
 .ulnovedades{
@@ -219,7 +229,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     width: 1184px;
     height: 90px;
     left: calc(50% - 1184px/2);
-    top: 480px;
+    top: 375px;
     background: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
@@ -413,7 +423,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     width: 1200px;
     height: 460.19px;
     left: calc(50% - 1200px/2);
-    top: 580px;
+    top: 475px;
   }
 
   .ofertas-titulo{
@@ -690,23 +700,6 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     color: #00A650;
   }
 
-  .envios-gratis{
-    position: absolute;
-    width: 75px;
-    height: 20px;
-    left: 0px;
-    top: 29px;
-    font-family: Roboto,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    /* or 123% */
-    display: flex;
-    align-items: center;
-    color: #00A650;
-  }
-
   .text-precio-micro{
     display: flex;
     flex-direction: row;
@@ -718,6 +711,14 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     height: 24px;
     left: 0px;
     top: 0px;
+  }
+
+  .full-cortinas{
+    position: absolute;
+    left: 0%;
+    right: 0.35%;
+    top: 35px;
+    bottom: 21.18%;
   }
 
   .text-preciomicro-inte{
@@ -877,7 +878,7 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     width: 1180px;
     height: 340px;
     left: 80px;
-    top: 1080.19px;
+    top: 975px;
     background: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
@@ -1228,4 +1229,424 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+
+/*############# MODULO BENEFICIOS PUNTOS #####################*/
+
+.beneficios-punto-pp{
+    position: absolute;
+    width: 1200px;
+    height: 399.19px;
+    left: calc(50% - 1200px/2);
+    top: 1355px;
+}
+
+.benedicios-texto{
+    position: absolute;
+    width: 535.73px;
+    height: 31.19px;
+    left: 0px;
+    top: 40px;
+}
+
+.contenedor-streaming{
+    position: absolute;
+    width: 1200px;
+    height: 266px;
+    left: 0px;
+    top: 93.19px;
+}
+
+.texto-beneficios{
+    position: absolute;
+    width: 334px;
+    height: 32px;
+    left: 8px;
+    top: 0px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.texto-verbeneficios{
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    left: 367.36px;
+    top: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+
+.streaming-interior{
+    position: absolute;
+    width: 3600px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+}
+
+.contenedor-disney{
+    position: absolute;
+    width: 384px;
+    height: 250px;
+    left: 8px;
+    top: 0px;
+    border-radius: 6px;
+}
+
+.cont-comentarios-disney{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 138px;
+    bottom: 0px;
+}
+
+.cont-text-disney{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0.03125px 0px 16px;
+    gap: 4.97px;
+    position: absolute;
+    width: 244.03px;
+    height: 48.97px;
+    left: 96px;
+    top: calc(50% - 48.97px/2 - 0.48px);
+}
+
+.texto-sincargo{
+    width: 228px;
+    height: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.texto-disneystar{
+    width: 123px;
+    height: 20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.textodiasmas{
+    position: absolute;
+    width: 75px;
+    height: 16px;
+    left: 16px;
+    top: -15px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contenesor-hbo{
+    position: absolute;
+    width: 384px;
+    height: 250px;
+    left: 408px;
+    top: 0px;
+    border-radius: 6px;
+}
+
+.contenedor-paramount{
+    position: absolute;
+    width: 384px;
+    height: 250px;
+    left: 808px;
+    top: 0px;
+    border-radius: 6px;
+}
+
+/*############# MODULO DESCUBRE #############*/
+
+.modulo-descubre{
+    position: absolute;
+    width: 1200px;
+    height: 398.19px;
+    left: calc(50% - 1200px/2);
+    top: 1754px;
+}
+
+.descubretext{
+    position: absolute;
+    width: 109.59px;
+    height: 37px;
+    left: 8px;
+    top: 37px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.descubreinter{
+    position: absolute;
+    height: 265px;
+    left: 0px;
+    right: 0px;
+    top: 93.19px;
+}
+
+.renuevaespacios{
+    position: absolute;
+    height: 250px;
+    left: 8px;
+    right: 608px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.suscribete{
+    position: absolute;
+    height: 250px;
+    left: 607px;
+    right: 9px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.text-renueva{
+    position: absolute;
+    width: 213px;
+    height: 12px;
+    left: 32px;
+    top: 32px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.estilo-imgpla{
+    position: absolute;
+    width: 289.84px;
+    left: 307.27px;
+    top: 0px;
+    bottom: 0px;
+    background: url(.png);
+}
+
+.estilo-imghogar{
+    position: absolute;
+    width: 289.84px;
+    left: 319.5px;
+    top: 0px;
+    bottom: 0px;
+    background: url(.png);
+}
+
+.text-hogarespacios{
+    position: absolute;
+    width: 251px;
+    height: 31px;
+    left: 32px;
+    top: 55px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.hasta-50off{
+    position: absolute;
+    width: 208px;
+    height: 31px;
+    left: 32px;
+    top: 75px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.boton-vermas{
+    position: absolute;
+    width: 96px;
+    height: 36px;
+    left: 32px;
+    top: 105px;
+    background: #3483FA;
+    border-radius: 2px;
+}
+
+.suscri-nivel6{
+    position: absolute;
+    width: 214px;
+    height: 12px;
+    left: 32px;
+    top: 32px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.porsolo{
+    position: absolute;
+    width: 132px;
+    height: 31px;
+    left: 32px;
+    top: 55px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.precio-cadames{
+    position: absolute;
+    width: 241px;
+    height: 31px;
+    left: 32px;
+    top: 75.8px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.boton-suscribirme{
+    position: absolute;
+    width: 96px;
+    height: 36px;
+    left: 32px;
+    top: 110.59px;
+    background: #3483FA;
+    border-radius: 2px;
+}
+
+.conte-plataformas{
+    position: absolute;
+    width: 275.11px;
+    height: 198.59px;
+    left: 0px;
+    top: 25.7px;
+}
+
+.conte-renuevahogar{
+    position: absolute;
+    width: 287.34px;
+    height: 198.59px;
+    left: 0px;
+    top: 25.7px;
+}
+
+.textsucribirme{
+    position: absolute;
+    width: 74.09px;
+    height: 20px;
+    left: 12px;
+    top: 7.5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vertext{
+    position: absolute;
+    width: 50.83px;
+    height: 20px;
+    left: 22.69px;
+    top: 7.5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tamaño-home{
+    position: absolute;
+    width: 284px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
 }
