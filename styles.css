@@ -2707,7 +2707,6 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
     
 }
 
-
 .formas-de-pago{
     position: absolute;
     width: 1184px;
@@ -2920,4 +2919,234 @@ button.nav-search-btn:before,button.nav-search-btn:focus:before {
 .margen3{
     margin-left: 148;
     margin-right: 164;
+}
+
+.section{
+    position: absolute;
+    width: 1512px;
+    height: 300px;
+    left: -2px;
+    top: 3622.5px;
+    background: #FFFFFF;
+}
+
+.section-int{
+    position: absolute;
+    width: 1200px;
+    height: 80px;
+    left: 80px;
+    top: 0px;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 66px;
+    height: 46px;
+    left: calc(50% - 66px/2);
+    top: calc(50% - 46px/2 - 72px);
+}
+
+.pagacontarje{
+    position: absolute;
+    width: 260.89px;
+    height: 29px;
+    left: 69.66px;
+    top: 105px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+.conmercado{
+    position: absolute;
+    width: 303.4px;
+    height: 75px;
+    left: 48.39px;
+    top: 136px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
+.comopagar{
+    position: absolute;
+    width: 195.11px;
+    height: 20px;
+    left: 102.55px;
+    top: 220px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3483FA;
+}
+
+.shiping{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 56px;
+    height: 49px;
+    left: calc(50% - 56px/2);
+    top: calc(50% - 49px/2 - 61.5px);
+}
+
+.enviogratis{
+    position: absolute;
+    width: 248.73px;
+    height: 29px;
+    left: 75.73px;
+    top: 105px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+.consolotext{
+    position: absolute;
+    width: 288.61px;
+    height: 57px;
+    left: 55.8px;
+    top: 136px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
+.concebenefi{
+    position: absolute;
+    width: 206.06px;
+    height: 20px;
+    left: 97.06px;
+    top: 202px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3483FA;
+}
+
+.protecte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 51px;
+    height: 55px;
+    left: calc(50% - 51px/2);
+    top: calc(50% - 55px/2 - 58.5px);
+}
+
+.seguridadtext{
+    position: absolute;
+    width: 245.48px;
+    height: 29px;
+    left: 77.36px;
+    top: 105px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+   display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4B4B4B;
+}
+
+.notegustatext{
+    position: absolute;
+    width: 296.23px;
+    height: 57px;
+    left: 51.98px;
+    top: 136px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
+.comotegustatext{
+    position: absolute;
+    width: 130.64px;
+    height: 20px;
+    left: 134.78px;
+    top: 202px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3483FA;
+}
+
+.section1{
+    position: absolute;
+    height: 260px;
+    left: 0px;
+    right: 800px;
+    top: 40px;
+}
+
+.section2{
+    position: absolute;
+    height: 242px;
+    left: 400px;
+    right: 400px;
+    top: 40px;
+}
+
+.section3{
+    position: absolute;
+    height: 242px;
+    left: 800px;
+    right: 0px;
+    top: 40px;
 }
